@@ -15,4 +15,18 @@ Small features are merge with the adiacent shape with the longest common edge. T
 - PHI field = a numeric attribute that define the degree of perviousness of the merged shape
 - Weight factor = a number that define the weigth to assign to the length between common edges (is zero, edges length is zero between polygon of the same group)
 
-Note: merge_small_feature_DATA.zip contains test_case.gpkg with small features. Set Area limits to 5000, the Name field to "name", the Group field to "group" and the PHI field to "phi" and Weight factor to 2. The result should be similar test_case_simply.gpkg.
+#### Notes
+- merge_small_feature_DATA.zip contains test_case.gpkg with small features. 
+Set Area limits to 5000, the Name field to "name", the Group field to "group" 
+and the PHI field to "phi" and Weight factor to 2. The result should be similar 
+test_case_simply.gpkg.
+- use "Delete holes" for QGIS processing to remove empty spaces inside the resulting polygons
+
+### clean_overlap.py
+A processing script that adjusts edges in order to remove overlaps between polygons. 
+
+### join_nodes_links.py
+Add the link id to the closest point  
+
+### find_common_edges.py
+Return the common edges between adjacent polygons
