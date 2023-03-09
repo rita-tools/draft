@@ -17,7 +17,6 @@ The user can give more weight to the adjacent shape of the same group.
 - Weight factor = a number that define the weight to assign to the length between common edges 
   (if zero, edges length is zero between polygon of the same group)
 
-![Alt text](./img/merge_small_features_schema.svg)
 <img src="./img/merge_small_features_schema.svg">
 
 #### Notes
