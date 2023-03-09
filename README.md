@@ -1,0 +1,3 @@
+All the files inside this repository are drafts! 
+So, maybe they don't work as expected or they don't work at all ...
+but they can still be useful to someone after small edits.
